@@ -20,7 +20,7 @@ Snarfing and pasting text is great, but what about more exciting things? There i
 
 Middle clicking on a word or some selected text *executes* that command. As you can see, it doesn't matter where that command is. It can be embedded in a document. If you don't trust the document then try not to execute any commands in it.
 
-We've covered what the left and middle mouse buttons do. What about the right one? Well, that one is for navigation. Right-clicking on a file can potentially open up a new window, depending on which program is registered to handle the file type. You can close windows by right-clicking on an empty spot on the desktop, choose Delete and then right click on the window. Try right-clicking on this nice introduction document written by the Plan 9 authors and close it once you are done.
+We've covered what the left and middle mouse buttons do. What about the right one? Well, that is for navigation. Right-clicking on a file can potentially open up a new window, depending on which program is registered to handle the file type. You can close windows by right-clicking on an empty spot on the desktop, choose Delete and then right click on the window. Try right-clicking on this nice introduction document written by the Plan 9 authors. Close it once you are done.
 
 /sys/doc/9.ps
 
@@ -30,7 +30,7 @@ The windowing system is called rio. Rio exposes its window management commands i
 
 You may have noticed that much of this tutorial has been focused on acme so far even though there are many other tools. Acme is really good at presenting, navigating and working with text. Much of the plan 9 system is available in text, such as text files, lists of files, output from commands and much more. As a result, acme can be a text editor, navigator, browser and history for your activities. It's a good starting point for learning about Plan 9.
 
-Plan 9 comes with a number of good papers describing different aspects on the system ranging from an introduction to the system to the built-in unicode character set also known as UTF-8. I find myself referring to these papers frequently to understand areas of the system in-depth. Try navigating to the documents directory.
+Plan 9 comes with a number of good papers describing different aspects on the system ranging from an introduction to the system to the built-in unicode character set also known as UTF-8. I find myself referring to these papers frequently to understand areas of the system. Try navigating to the documents directory.
 
 /sys/doc
 
@@ -48,6 +48,6 @@ intro(1)
 
 Notice that since manual pages are text they open up within acme as new windows. Manual page references are detected because of the unique format with the page name and the section number in brackets. You can even navigate from one manual page to another by right-clicking on manual page references within the manual page with a simple hyperlinking system, but without the URL's.
 
-Speaking of hyperlinks, this page is running quite long. Let's continue in a new document and learn more about creating, editing and searching documents. Delete this window if you want. You may need to undo your modifications or delete it twice because of a warning window that tells you that you have unsaved changes.
+Speaking of hyperlinks, this page is running quite long. Let's continue in a new document and learn more about creating, editing and searching documents. Select and right-click on the file name (doced.md) below to open the next tutorial. Delete this window if you want. You may need to undo your modifications or delete it twice because of a warning window that tells you that you have unsaved changes.
 
-[Document Editing](document-editing.md)
+[Document Editing]( doced.md )
