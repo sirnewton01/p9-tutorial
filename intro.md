@@ -22,7 +22,7 @@ Middle clicking on a word or some selected text *executes* that command. As you 
 
 We've covered what the left and middle mouse buttons do. What about the right one? Well, that is for navigation. Right-clicking on a file can potentially open up a new window, depending on which program is registered to handle the file type. You can close windows by right-clicking on an empty spot on the desktop, choose Delete and then right click on the window. Try right-clicking on this nice introduction document written by the Plan 9 authors. Close it once you are done.
 
-/sys/doc/9.ps
+    /sys/doc/9.ps
 
 Plan 9 opened a new window because this program (it's called acme) doesn't understand how to open PostScript and PDF files. The system located a tool that can open them. If you open text files then they will open in a new window within acme. We will try that shortly.
 
@@ -32,7 +32,7 @@ You may have noticed that much of this tutorial has been focused on acme so far 
 
 Plan 9 comes with a number of good papers describing different aspects on the system ranging from an introduction to the system to the built-in unicode character set also known as UTF-8. I find myself referring to these papers frequently to understand areas of the system. Try navigating to the documents directory.
 
-/sys/doc
+    /sys/doc
 
 Notice that acme opened up a new window with the directory listing. The name of the subject file or directory of the window is on the top-left. The top portion of the window has convenient commands such as del, snarf, get and look. These commands have been at the top of this window the whole time, but now you can see that useful commands are added to new windows too.
 
@@ -44,7 +44,7 @@ Delete all of the extra windows. You can always open them again by navigating fr
 
 While the papers are great for reading about the design of the system, sometimes you need specific and current details about the system, such as installed programs and their command-line arguments or even programming documentation. There is a built-in manual system not unlike UNIX manual pages. Let's have a quick look at the introduction.
 
-intro(1)
+    intro(1)
 
 Notice that since manual pages are text they open up within acme as new windows. Manual page references are detected because of the unique format with the page name and the section number in brackets. You can even navigate from one manual page to another by right-clicking on manual page references within the manual page with a simple hyperlinking system, but without the URL's.
 
