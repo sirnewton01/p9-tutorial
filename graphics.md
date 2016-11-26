@@ -9,5 +9,19 @@ For example, let's assume that you have a document with a series of data in it. 
     2	4.8
     3	16.0011
 
-    > graph > /tmp/graph.plot; window plot /tmp/graph.plot
+    > graph > /tmp/graph.plot && window plot /tmp/graph.plot
 
+Let's try doing some raw drawing commands to print a red unit circle with x and y axis lines. Details about the commands can be found in plot(6).
+
+    o
+    ra  -1.0  -1.0  1.0  1.0
+    e
+    co  r
+    cf  r
+    di  0.0  0.0  1.01
+    co  k
+    li  0.0  -1.0  0.0  1.0
+    li  -1.0  0.0  1.0  0.0
+    cl
+
+    > cat > /tmp/pic.plot && window plot /tmp/pic.plot
