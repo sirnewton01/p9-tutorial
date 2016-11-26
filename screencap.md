@@ -27,4 +27,4 @@ We can even do screen recordings using a similar technique to produce an animate
 
 The default gif viewer (called page) doesn't support gif animations. Let's view it with the gif tool. It recorded the whole screen and so you may need to resize the window to see all of the action that you recorded.
 
-    git /tmp/recording.gif
+    gif /tmp/recording.gif

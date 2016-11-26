@@ -4,9 +4,11 @@ Document Editing
 Last time, we learned about how to navigate between documents using hyperlinks. Text documents can serve a variety of purposes in Plan 9. They can be used for written documents like this one. They can be generated from the result of running a command or showing a directory listing. You can even write a document as a log of the commands that you ran during a session as a history or log of what you were doing. Any text shown in a window can be edited, even if it is output from a command. This makes Plan 9 quite unique.
 
 Run this command to create a new file. It echos text and redirect the output to the file sample.txt
+
     echo 'SAMPLE CONTENTS' > sample.txt
 
 Navigate to your new file using this hyperlink.
+
     sample.txt
 
 You can add whatever contents you want in this file. Try adding a hyperlink back to this document using the file name document-editing.md. Whenever a panel is modified, the resize box on the top-left is filled in with a blue colour indicating that there are unsaved changes. Run the put command to save the file.
