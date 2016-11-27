@@ -17,14 +17,14 @@ Plan 9's raw image format can take more disk space than something like GIF or PN
 
     cat /dev/screen | topng > /tmp/shot.png
 
-This concatenates the screen image and pipes it to the topng command, which as you can guess outputs a PNG version of the image. You can open this image by right-clicking directly on the image file path. Let's compare the size of the two files. In my case, the PNG is easily 300 times smaller.
+This concatenates the screen image and pipes it to the topng command, which as you can guess outputs a PNG version of the image. You can open this image by right-clicking directly on the image file path and type 'q' on the keyboard to quit. Let's compare the size of the two files. In my case, the PNG is easily 300 times smaller.
 
     ls -l /tmp/shot.png /tmp/shot.pic
 
 We can even do screen recordings using a similar technique to produce an animated GIF. This command will take ten seconds of screen shots, one every 100ms, and compile them together into an animated gif.
 
-    for (i in `{seq -w 1 25}) { sleep 0.01; cat /dev/screen > /tmp/screen-$i.pic }; togif -l -1 -d 300 /tmp/screen-*.pic > /tmp/recording.gif; rm /tmp/screen-*.pic; echo Done
+    for (i in `{seq -w 1 12}) { sleep 0.01; cat /dev/screen > /tmp/screen-$i.pic }; togif -l -1 -d 300 /tmp/screen-*.pic > /tmp/recording.gif; rm /tmp/screen-*.pic; echo Done
 
 The default gif viewer (called page) doesn't support gif animations. Let's view it with the gif tool. It recorded the whole screen and so you may need to resize the window to see all of the action that you recorded.
 
-    gif /tmp/recording.gif
+    window gif /tmp/recording.gif

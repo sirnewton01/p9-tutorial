@@ -3,7 +3,7 @@ Document Editing
 
 Last time, we learned about how to navigate between documents using hyperlinks. Text documents can serve a variety of purposes in Plan 9. They can be used for written documents like this one. They can be generated from the result of running a command or showing a directory listing. You can even write a document as a log of the commands that you ran during a session as a history or log of what you were doing. Any text shown in a window can be edited, even if it is output from a command. This makes Plan 9 quite unique.
 
-Run this command to create a new file. It echos text and redirect the output to the file sample.txt
+Run this command to create a new file. It echos text and redirect the output to the file sample.txt Because the command is more than a single word you will need to select the whole thing with the left mouse button and then run it by middle-clicking on the selection. Alternatively, you can middle-button select the whole command and release to run it.
 
     echo 'SAMPLE CONTENTS' > sample.txt
 
@@ -23,7 +23,7 @@ Notice that it highlights an instance of the word within the document and moves 
 
 You may have noticed that this line at the top of the window is customizable! You can add additional commands at the top so that you can middle click to run them easily. You can put snippets of text there to easily find instances. You can do the same thing inside your document but then it would get saved with the rest of the text and you would need to scroll to find the command/snippet.
 
-If you want to rename your file you can also edit the file name/path at the top, and run put to save it under a new location. Note that this doesn't delete the original. You could even do this to a command output if you want to save the output of the command to a file. Try running this command and save its output window to a file. Edit the file path to at the top of the window to /tmp/output.txt. Write in the Put command after Look and then middle click it to save.
+If you want to rename your file you can also edit the file name/path at the top, and run the put command to save it under a new location. Note that this doesn't delete the original. You could even do this to a command output if you want to save the output of the command to a file. Try running this command and save its output window to a file. Edit the file path to at the top of the window to /tmp/output.txt. Type in the Put command after Look and then middle click it to save.
 
 	seq 1 50
 
