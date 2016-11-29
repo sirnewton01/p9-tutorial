@@ -31,6 +31,6 @@ In this section you have seen how to create new documents using either a command
 
 To learn more about acme you can check the manual page acme(1).
 
-The next section will focus on the Plan 9 filesystem.
+Next, let's take a look at adding graphics to your documents.
 
-[Plan 9 Filesystem]( filesys.md )
+[Plan 9 Filesystem]( graphics.md )

@@ -37,3 +37,7 @@ Now, select the table and middle-click select this command to plot it.
     > graph -g 1 > /tmp/graph.plot && window plot /tmp/graph.plot
 
 In this tutorial, you have seen how to use selected text as input to commands using the special '>' character at the beginning of the command. Tabular data can be sent to the graph command, which outputs plot commands to the plot command to render the graph. If you like, you can even write your own drawing commands directly to plot. There is also a special command prefix '<' that can insert the output from the command directly in your document where the cursor is located. To read more about these special prefixes in acme(1).
+
+In the next tutorial we will cover how to extract graphics from your screen.
+
+[Screen Recording]( screencap.md )

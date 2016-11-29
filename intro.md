@@ -36,7 +36,9 @@ Plan 9 comes with a number of good papers describing different aspects on the sy
 
 Notice that acme opened up a new window with the directory listing. The name of the subject file or directory of the window is on the top-left. The top portion of the window has convenient commands such as del, snarf, get and look. These commands have been at the top of this window the whole time, but now you can see that useful commands are added to new windows too.
 
-Windows can be resized in a number of ways. You can click and drag the little resize box on the top-left corner of the window up or down to enlarge or shrink it. If you left-click on the box it will gradually increase its size. You can also maximize the window hiding all other windows. Reveal hidden windows by left-clicking on the resize box on the visible window. Maximize a window by right-clicking on the resize box. Try different sizes for the new window now.
+Acme windows can be resized in a number of ways. You can click and drag the little resize box on the top-left corner of the window up or down to enlarge or shrink it. If you left-click on the box it will gradually increase its size. You can also maximize the window hiding all other windows. Reveal hidden windows by left-clicking on the resize box on the visible window. Maximize a window by right-clicking on the resize box. Try different sizes for the new window now.
+
+![Acme resize box]( intro-resize-box.png )
 
 Try opening some of the documents (PS, PNG, PDF) in the directory window. If you try opening sub-directories they open as new windows. Close windows by running the del command. Don't worry, the del command doesn't delete the file or directory. It only deletes the window. Remember, you can run commands by middle-clicking on them.
 
