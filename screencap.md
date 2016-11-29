@@ -28,3 +28,9 @@ We can even do screen recordings using a similar technique to produce an animate
 The default gif viewer (called page) doesn't support gif animations. Let's view it with the gif tool. It recorded the whole screen and so you may need to resize the window to see all of the action that you recorded.
 
     window gif /tmp/recording.gif
+
+In this tutorial we learned how to capture the screen and record it in either raw Plan 9 raster format or a common GIF format. You can read more about the available formats and options in gif(1). The GIF file format supports animation, allowing us to take multiple shots and record short videos.
+
+We have devoted alot of time to learning about document editing using acme. As a change of pace, let's switch our focus to the windowing system, which is simple yet effective.
+
+[Windowing System]( windows.md )
