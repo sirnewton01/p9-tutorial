@@ -33,4 +33,4 @@ To learn more about acme you can check the manual page acme(1).
 
 Next, let's take a look at adding graphics to your documents.
 
-[Plan 9 Filesystem]( graphics.md )
+[Plan 9 Graphics]( graphics.md )
