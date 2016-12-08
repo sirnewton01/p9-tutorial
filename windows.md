@@ -11,7 +11,11 @@ When you decide to run a graphical program they will usually assume control of t
 
 Graphical programs are able to customize the graphics within the window. They can also override the mouse cursor and present its own mouse click menus. A program is free to completely define its own UI within that window, acme being a good example of this. The manual pages are a good way to learn about how to use custom UI's.
 
-In many ways a window appears to a program as having its own screen and mouse. The abstraction is so similar that it is possible to run another instance of the Rio window manager inside a window! Try running it now and then draw a new window inside the second Rio. That inner window is visually sandboxed within the rio window. There's no way that it can resize itself and escape. This is also how Plan 9 developers can test changes to Rio before deploying those changes to their system.
+In many ways a window appears to a program as having its own screen and mouse. The abstraction is so similar that it is possible to run another instance of the Rio window manager inside a window! Try running it now and then draw a new window inside the second Rio. That inner window is sandboxed within the rio window. There's no way that it can resize itself and escape. This is also how Plan 9 developers can test changes to Rio before deploying those changes to their system.
 
-Each program has its own way to quit/exit and close its window. If the application is not responding or you forget how to quit a particular program you can right-click on the desktop, chose "Delete" and right click on the window you want to kill. Try right-clicking in your rio window and deleting the inner window now. Next, try right-clicking on your outer desktop and deleting the inner rio window.
+Each program has its own way to quit, exit and close its window. If the application is not responding or you forget how to quit a particular program you can right-click on the desktop, chose "Delete" and right click on the window you want to kill. Try right-clicking in your rio window and deleting the inner window now. Next, try right-clicking on your outer desktop and deleting the inner rio window.
+
+Resizing windows works much like it does on other systems. When you hover the mouse over the window's edge you can see that the cursor changes shape. On the edges you can resize that edge either vertically or horizontally. On the corners you can resize both ways. There is no known shortcut to maximize a window automatically to cover the whole screen, Instead, it is a manual process.
+
+There is another way to resize windows. You can right-click on the desktop, choose Resize, right-click on the window to resize and draw out the new location of your window.
 
