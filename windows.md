@@ -19,3 +19,4 @@ Resizing windows works much like it does on other systems. When you hover the mo
 
 There is another way to resize windows. You can right-click on the desktop, choose Resize, right-click on the window to resize and draw out the new location of your window.
 
+Moving windows around doesn't work like with other systems. Since there's no window title bar at the top, you can't left-click and drag it around. Instead, you can right-click and drag using the border of the window. The mouse cursor turns into a box shop in the process. Alternatively, there is a Move option when you right-click on the desktop that allows you to right-click and drag anywhere on a window to move it around.
